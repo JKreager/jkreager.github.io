@@ -128,3 +128,14 @@ a:hover {
 .projects-grid .project:hover {
     transform: scale(1.05);
 }
+
+/* Button Styles */
+.btn-primary {
+    background-color: #4CAF50; /* Forest green */
+    border-color: #4CAF50;     /* Forest green border */
+}
+
+.btn-primary:hover {
+    background-color: #388E3C; /* Darker forest green on hover */
+    border-color: #388E3C;     /* Darker forest green border on hover */
+}
