@@ -1,0 +1,130 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    color: #2E2E2E; /* Dark gray for text */
+    background-color: #E8F5E9; /* Light mint green background */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #4CAF50; /* Forest green */
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FAFAFA; /* Off-white text color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFF176; /* Light yellow on hover */
+}
+
+/* Bio Section */
+#bio {
+    background-color: #A5D6A7; /* Pale green */
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #388E3C; /* Darker forest green border */
+}
+
+#bio img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #4CAF50; /* Forest green border around image */
+}
+
+#bio p {
+    color: #2E7D32; /* Dark green text */
+}
+
+#bio ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#bio ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #C8E6C9; /* Light green */
+    padding: 30px;
+    text-align: center;
+}
+
+#projects h2 {
+    color: #388E3C; /* Dark green */
+}
+
+#projects .project {
+    background-color: #8BC34A; /* Jungle green */
+    border: 2px solid #689F38; /* Olive green border */
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+#projects .project h3 {
+    color: #2E7D32; /* Dark green */
+    margin-bottom: 10px;
+}
+
+#projects .project p {
+    color: #2E2E2E; /* Dark gray */
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50; /* Forest green */
+    color: #FAFAFA; /* Off-white */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links */
+a {
+    color: #388E3C; /* Dark green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FFA726; /* Orange on hover */
+}
+
+/* Grid Layout for Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.projects-grid .project {
+    transition: transform 0.2s;
+}
+
+.projects-grid .project:hover {
+    transform: scale(1.05);
+}
